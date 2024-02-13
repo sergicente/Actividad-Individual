@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad – Que comience el juego!</title>
+    <link rel="shortcut icon" href="img/logo.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div id="fondo">
+        <br><br>
+        <div id="formulario">
+            <form name="formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com">
+                <h1>Breaking Bad <br>Que comience el juego!</h1>
+                <input type="text" placeholder="Nombre" name="nombre" id="placeholder" required>
+                <br><input type="text" placeholder="Apellidos" name="apellidos" id="placeholder" required>
+                <br><input type="email" placeholder="Correo Electrónico" name="correo" id="placeholder" required>
+
+                <br><div id="contenedor">
+                    <div class="columna" id="columna1">
+                        <div id="titulo">Fecha Nacimiento</div>
+                        <input type="date" name="" id="placeholder2">
+                    </div>
+                    <div class="columna" id="columna2">
+                        <div id="titulo2">Género</div>
+                        <br><input type="radio" name="genero" id="" value="Hombre">Hombre
+                        <br><input type="radio" name="genero" id="" value="Mujer">Mujer
+                    </div>
+                    <div class="columna" id="columna3">
+                        <div id="titulo">Personaje</div>
+                        <select name="Género" id="placeholder3">
+                            <option disabled selected value="">Seleccionar</option>
+                            <option value="Jessie Pinkman">Jessie Pinkman</option>
+                            <option value="Walter White">Walter White</option>
+                            <option value="Saul Goodman">Saul Goodman</option>
+                            <option value="Gustavo Fring">Gustavo Fring</option>
+                            <option value="Pollos Hermanos">Pollos Hermanos</option>
+                            <option value="Otros personajes">Otros personajes</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <br><div id="titulo">Dirección Postal</div>
+                <input type="text" placeholder="Calle" name="calle" id="placeholder">
+                <br><input type="text" placeholder="Número" name="numero" id="placeholder">
+                <br><input type="text" placeholder="Piso" name="piso" id="placeholder">
+                <br><input type="text" placeholder="Código Postal" name="codigopostal" id="placeholder">
+                <br><input type="text" placeholder="Ciudad" name="ciudad" id="placeholder">
+                <br><input type="text" placeholder="DNI" name="dni" id="placeholder">
+                <br><textarea name="" id="textarea" cols="20" rows="5" maxlength="240" placeholder="Comentarios"></textarea>
+                
+                <br><br><br><input type="file" value="Adjuntar">
+                <br><br><br><div id="centrarbotones">
+                    <input id="boton" type="reset" value="Borrar">
+                    <input id="boton" type="submit" value="Enviar">
+                    <br>
+                </div>
+                
+            </form>
+            <br><br><a id="enlace" href="index.html">Volver</a>
+        </div>
+
+    </div>
+    
+</body>
+</html>
