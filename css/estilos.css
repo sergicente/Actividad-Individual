@@ -7,10 +7,13 @@ body, html{
 
 h1{
     text-align: center;
-    color:#2b2c24
+    color:white
 }
 
-
+td{
+    width: 70px;
+    height: 70px;
+}
 
 #logo{
     max-width: 200px;
@@ -55,89 +58,40 @@ h1{
     text-align: left;
 }
 
-#placeholder {
-    height: 3.5em;
-    margin: 5px 0px;
-    border: 0px;
-    width: 100%;
-    background-color: #d5e686;
-    border-radius: 4px;
-    padding: 5px 20px;
-    box-shadow: 0px 1px 2px lightgrey;
-    box-sizing: border-box; /* Agregado para incluir el padding en el ancho total */
-}
-
-#placeholder2 {
-    height: 3.5em;
-    border: 0px;
-    min-width: 180px;
-    background-color: #d5e686;
-    border-radius: 4px;
-    padding: 5px 20px;
-    box-shadow: 0px 1px 2px lightgrey;
-    box-sizing: border-box; /* Agregado para incluir el padding en el ancho total */
-    margin-bottom: 0!important;
-}
-
-#placeholder3 {
-    height: 3.5em;
-    border: 0px;
-    min-width: 100%;
-    background-color: #d5e686;
-    border-radius: 4px;
-    padding: 5px 20px;
-    box-shadow: 0px 1px 2px lightgrey;
-    box-sizing: border-box; /* Agregado para incluir el padding en el ancho total */
-    margin-bottom: 0!important;
-}
-
-#textarea {
-
-    margin: 5px 0px;
-    border: 0px;
-    width: 100%;
-    background-color: #d5e686;
-    border-radius: 4px;
-    padding: 5px 20px;
-    box-shadow: 0px 1px 2px lightgrey;
-    box-sizing: border-box; /* Agregado para incluir el padding en el ancho total */
-}
-
 #formulario input[type="text"],
 #formulario input[type="email"],
 #formulario input[type="date"],
 #formulario select {
-    margin-bottom: 10px; /* Ajustar los márgenes entre los elementos */
+    margin-bottom: 10px;
 }
-
 
 #contenedor {
     display: flex;
-    align-items: center; /* Centra verticalmente los elementos */
+    align-items: center;
 }
 
 #genero-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra horizontalmente los elementos */
+    align-items: center;
 }
 
 #genero-container label {
-    margin-bottom: 5px; /* Ajusta el margen inferior para separar los elementos */
+    margin-bottom: 5px;
 }
 
 
 #columna1{
-    flex: 1; /* Para que ambas columnas ocupen el mismo espacio */
+    flex: 1;
     margin-right: 0%;
 }
 #columna2{
-    flex: 0.5; /* Para que ambas columnas ocupen el mismo espacio */
+    flex: 0.5;
     margin-right: 0%;
     padding-bottom: 14px!important;
 }
 #columna3 {
-    flex: 1; /* Para que ambas columnas ocupen el mismo espacio */
+    flex: 1;
     margin-left:0%
 }
 
@@ -147,11 +101,19 @@ h1{
     justify-content: center;
 }
 
-#boton{
+#enlace{
+    color:white;
+    padding: 50px 0px;
+    text-decoration: none;
+}
+
+
+
+.boton{
     padding: 4% 8%;
     border: 0px;
     border-radius: 3px;
-    box-shadow: 0px 1px 2px black;
+    box-shadow: 0px 1px 3px black;
     background-color: #2b2c24;
     font-weight: 600;
     color:white;
@@ -159,41 +121,81 @@ h1{
     margin-bottom: 10px;
 }
 
-#titulo{
+.titulo{
     font-size: 16px;
     font-weight: 600;
-    color: #2b2c24;
+    color: white;
     margin-top: 1.5em;
     margin-bottom: 1em;
     
 }
 
-#titulo2{
+.titulo2{
     font-size: 16px;
     font-weight: 600;
-    color: #2b2c24;
+    color: white;
     margin-top: 2em;
     margin-bottom: 0.5em;
     
 }
 
-#tabla{
+.tabla{
     margin:auto;
     background-color: #2b2c24;
     color: white;
     border: 3px solid #2b2c24;
 }
 
-#enlace{
-    color:white;
-    padding: 50px 0px;
+
+.placeholder {
+    height: 3.5em;
+    margin: 5px 0px;
+    border: 0px;
+    width: 100%;
+    background-color: #d5e686;
+    border-radius: 4px;
+    padding: 5px 20px;
+    box-shadow: 0px 1px 3px black;
+    box-sizing: border-box;
 }
 
-td{
-    width: 70px;
-    height: 70px;
+.placeholder2 {
+    height: 3.5em;
+    border: 0px;
+    min-width: 180px;
+    background-color: #d5e686;
+    border-radius: 4px;
+    padding: 5px 20px;
+    box-shadow: 0px 1px 3px black;
+    box-sizing: border-box;
+    margin-bottom: 0!important;
 }
-.verde{
+
+.placeholder3 {
+    height: 3.5em;
+    border: 0px;
+    min-width: 100%;
+    background-color: #d5e686;
+    border-radius: 4px;
+    padding: 5px 20px;
+    box-shadow: 0px 1px 3px black;
+    box-sizing: border-box;
+    margin-bottom: 0!important;
+}
+
+.textarea {
+
+    margin: 5px 0px;
+    border: 0px;
+    width: 100%;
+    background-color: #d5e686;
+    border-radius: 4px;
+    padding: 5px 20px;
+    box-shadow: 0px 1px 3px black;
+    box-sizing: border-box;
+}
+
+.verde1{
     background-color: #b6db25;
     border:  3px solid #2b2c24;
     color: #2b2c24;
