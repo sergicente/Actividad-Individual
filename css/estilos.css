@@ -7,7 +7,14 @@ body, html{
 
 h1{
     text-align: center;
-    color:white
+    color:white;
+    font-size: xx-large;
+    line-height: 1.45em;
+}
+
+h2{
+    text-align: center;
+    color:#2b2c24;
 }
 
 td{
@@ -56,6 +63,7 @@ td{
     margin:auto;
     max-width: 500px;
     text-align: left;
+    border: 1px solid #2b2c24;
 }
 
 #formulario input[type="text"],
@@ -112,13 +120,29 @@ td{
 .boton{
     padding: 4% 8%;
     border: 0px;
-    border-radius: 3px;
-    box-shadow: 0px 1px 3px black;
+    border-radius: 2px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 2px #2b2c24;
     background-color: #2b2c24;
     font-weight: 600;
     color:white;
     margin-right: 20px;
     margin-bottom: 10px;
+}
+
+.color1{
+    color:#2b2c24;
+    display:inline;
+    background-color:#bed841;
+    border: 1px solid #2b2c24;
+    padding:6px 6px
+}
+.color2{
+    color:#2b2c24;
+    display:inline;
+    background-color:#bed841;
+    border: 1px solid #2b2c24;
+    padding:6px 3px
 }
 
 .titulo{
@@ -152,10 +176,11 @@ td{
     margin: 5px 0px;
     border: 0px;
     width: 100%;
+    border: 1px solid #2b2c24;
     background-color: #d5e686;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 5px 20px;
-    box-shadow: 0px 1px 3px black;
+    box-shadow: 0px 0px 2px #2b2c24;
     box-sizing: border-box;
 }
 
@@ -163,10 +188,11 @@ td{
     height: 3.5em;
     border: 0px;
     min-width: 180px;
+    border: 1px solid #2b2c24;
     background-color: #d5e686;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 5px 20px;
-    box-shadow: 0px 1px 3px black;
+    box-shadow: 0px 0px 2px #2b2c24;
     box-sizing: border-box;
     margin-bottom: 0!important;
 }
@@ -175,10 +201,11 @@ td{
     height: 3.5em;
     border: 0px;
     min-width: 100%;
+    border: 1px solid #2b2c24;
     background-color: #d5e686;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 5px 20px;
-    box-shadow: 0px 1px 3px black;
+    box-shadow: 0px 0px 2px #2b2c24;
     box-sizing: border-box;
     margin-bottom: 0!important;
 }
@@ -189,9 +216,10 @@ td{
     border: 0px;
     width: 100%;
     background-color: #d5e686;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 5px 20px;
-    box-shadow: 0px 1px 3px black;
+    border: 1px solid black;
+    box-shadow: 0px 0px 2px #2b2c24;
     box-sizing: border-box;
 }
 
