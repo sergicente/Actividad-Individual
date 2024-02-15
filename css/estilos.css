@@ -9,6 +9,8 @@ body, html{
     margin:0;
     padding: 0;
     font-family: Helvetica;
+    font-size:14px;
+
 }
 
 h1{
@@ -94,7 +96,6 @@ td{
     margin-bottom: 5px;
 }
 
-
 #columna1{
     flex: 1;
     margin-right: 0%;
@@ -178,7 +179,6 @@ td{
     border: 3px solid #2b2c24;
 }
 
-
 .placeholder {
     height: 3.5em;
     margin: 5px 0px;
@@ -242,52 +242,62 @@ td{
     border:  3px solid #2b2c24;
     color: #2b2c24;
 }
+
 .verde3{
     background-color: #828f4d;
     border:  3px solid #2b2c24;
     color: #2b2c24;
 }
+
 .verde4{
     background-color: #c6e24d;
     border:  3px solid #2b2c24;
     color: #2b2c24;
 }
+
 .verde5{
     background-color: #bec6a4;
     border:  3px solid #2b2c24;
     color: #2b2c24;
 }
+
 .verde6{
     background-color: #eff5cf;
     border:  3px solid #2b2c24;
     color: #2b2c24;
 }
+
 .verde7{
     background-color: #637027;
     border:  3px solid #2b2c24;
     color: #2b2c24;
 }
+
 .verde8{
     background-color: #89a419;
     border:  3px solid #2b2c24;
     color: #2b2c24;
 }
+
 .verde9{
     background-color: #c4c52b;
     border:  3px solid #2b2c24;
     color: #2b2c24;
 }
+
 .morado{
     background-color: #ac90ce;
     border:  3px solid #2b2c24;
     color: #2b2c24;
 }
+
 .textogra{
     font-size: 40px;
     font-weight: bolder;
     margin-top:0px;
     margin-bottom: 0px;
 }
+
 .textopeq{
     font-size: 10px;
     margin-top: 0px;
